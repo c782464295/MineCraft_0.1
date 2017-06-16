@@ -142,6 +142,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cube.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cube.h" />
+    <ClInclude Include="CubeManager.h" />
+    <ClInclude Include="LightMaterial.h" />
+    <ClInclude Include="parama.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="TexCube.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
