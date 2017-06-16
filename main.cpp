@@ -80,8 +80,7 @@ int main(int argc, char *argv[])
 {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);//显示模式 双缓冲 RGB 深度缓冲区
-	GLint WindowWidth = 600;
-	GLint WindowHeight = 600;
+
 	glutInitWindowSize(WindowWidth, WindowHeight);
 
 	GLint screenWidth = glutGet(GLUT_SCREEN_WIDTH);

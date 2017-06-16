@@ -21,6 +21,12 @@
     <ClCompile Include="Cube.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TexCube.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="parama.h">
@@ -32,13 +38,13 @@
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="CubeManager.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="TexCube.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Cube.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

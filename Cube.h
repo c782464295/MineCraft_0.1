@@ -1,5 +1,6 @@
-#pragma once
-#include "parama.h"
+#ifndef __CUBE_H__
+#define __CUBE_H__
+#include <GL\glut.h>
 #define BMP_Header_Length 54 //定义BMP文件头为54
 class Cube
 {
@@ -34,6 +35,7 @@ public:
 	static GLuint texSand;
 protected:
 	Cube() {};
-	GLuint _top, _bot, _side;
+	GLuint _top, _bot, _side;//用来存储方块顶面侧面地面的纹理
 
 };
+#endif
