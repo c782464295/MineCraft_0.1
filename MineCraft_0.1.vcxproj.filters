@@ -47,5 +47,14 @@
     <ClInclude Include="CubeManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Man.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

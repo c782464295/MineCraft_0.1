@@ -150,8 +150,11 @@
   <ItemGroup>
     <ClInclude Include="Cube.h" />
     <ClInclude Include="CubeManager.h" />
+    <ClInclude Include="Lable.h" />
     <ClInclude Include="LightMaterial.h" />
+    <ClInclude Include="Man.h" />
     <ClInclude Include="parama.h" />
+    <ClInclude Include="Point.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="TexCube.h" />
   </ItemGroup>
